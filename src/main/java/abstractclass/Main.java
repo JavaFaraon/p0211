@@ -3,10 +3,10 @@ package abstractclass;
 public class Main {
     public static void main(String[] args) {
         Instrument drum = new Drum();
-        drum.play("dfghfghfg");
+        drum.play("bambambam");
         Instrument guitar = new Guitar();
-        drum.play("lalalalal");
+        guitar.play("lalalalal");
         Instrument arfa = new Arfa();
-        drum.play("doremifa");
+        arfa.play("doremifa");
     }
 }
